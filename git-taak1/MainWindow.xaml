@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FF58A518" Margin="0,0,0,-33">
-        <Image HorizontalAlignment="Left" Height="38" Margin="31,25,0,0" VerticalAlignment="Top" Width="211" Source="/logo_pxl_digital.png"/>
+        <Image HorizontalAlignment="Left" Height="43" Margin="28,27,0,0" VerticalAlignment="Top" Width="183" Source="/logo_pxl_digital.png"/>
     </Grid>
 </Window>
