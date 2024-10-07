@@ -8,5 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FF58A518" Margin="0,0,0,-33">
         <Image HorizontalAlignment="Left" Height="43" Margin="28,27,0,0" VerticalAlignment="Top" Width="183" Source="/logo_pxl_digital.png"/>
+        <Label Content="PXL MovieDB" HorizontalAlignment="Left" Height="47" Margin="268,25,0,0" VerticalAlignment="Top" Width="472" FontSize="20" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2"/>
     </Grid>
 </Window>
