@@ -9,8 +9,9 @@
     <Grid Background="#FF58A518" Margin="0,0,0,-33">
         <Image HorizontalAlignment="Left" Height="43" Margin="28,27,0,0" VerticalAlignment="Top" Width="183" Source="/logo_pxl_digital.png"/>
         <Label Content="PXL MovieDB" HorizontalAlignment="Left" Height="47" Margin="268,25,0,0" VerticalAlignment="Top" Width="472" FontSize="20" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2"/>
-        <Image HorizontalAlignment="Left" Height="211" Margin="170,121,0,0" VerticalAlignment="Top" Width="158" Source="/dune2.jpg"/>
-        <Image HorizontalAlignment="Left" Height="211" Margin="377,121,0,0" VerticalAlignment="Top" Width="150" Source="/thesubstance.jpg"/>
-        <Image HorizontalAlignment="Left" Height="197" Margin="561,0,0,0" VerticalAlignment="Center" Width="132" Source="/furiosa.jpg" RenderTransformOrigin="0.359,0.481"/>
+        <Image x:Name="duneImage" HorizontalAlignment="Left" Height="211" Margin="170,121,0,0" VerticalAlignment="Top" Width="158" Source="/dune2.jpg" MouseLeftButtonDown="duneImage_MouseLeftButtonDown"/>
+        <Image x:Name="substanceImage" HorizontalAlignment="Left" Height="211" Margin="377,121,0,0" VerticalAlignment="Top" Width="150" Source="/thesubstance.jpg" MouseLeftButtonDown="substanceImage_MouseLeftButtonDown"/>
+        <Image x:Name="furiosaImage" HorizontalAlignment="Left" Height="197" Margin="561,0,0,0" VerticalAlignment="Center" Width="132" Source="/furiosa.jpg" RenderTransformOrigin="0.359,0.481" MouseLeftButtonDown="furiosaImage_MouseLeftButtonDown"/>
+        <TextBlock x:Name="resultTextBlock" HorizontalAlignment="Left" Height="69" Margin="82,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="658" FontSize="15"/>
     </Grid>
 </Window>
