@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>git_taak1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dune2.jpg" />
+    <None Remove="furiosa.jpg" />
+    <None Remove="logo_pxl_digital.png" />
+    <None Remove="thesubstance.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dune2.jpg" />
+    <Resource Include="furiosa.jpg" />
+    <Resource Include="logo_pxl_digital.png" />
+    <Resource Include="thesubstance.jpg" />
+  </ItemGroup>
+
+</Project>
